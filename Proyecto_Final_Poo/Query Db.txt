@@ -1,0 +1,19 @@
+USE petsdatabase
+create table Propietario(
+   
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(100) NOT NULL,
+    direccion VARCHAR(100) NOT NULL,
+	numero INT ,
+	
+);
+
+create table Mascota(
+    id  INT PRIMARY KEY AUTO_INCREMENT,
+    nombre VARCHAR(100) NOT NULL,
+    tipo VARCHAR(100) NOT NULL,
+	especie VARCHAR(100) NOT NULL,
+	fecha VARCHAR(100) NOT NULL,
+	propietario_id INT,
+	FREING KEY (propietario_id) REFERENCES propietario(id)
+);

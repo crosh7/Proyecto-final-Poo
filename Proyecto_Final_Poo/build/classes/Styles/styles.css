@@ -1,0 +1,78 @@
+.root{
+    -fx-background-color: #deffd3; 
+    -fx-background-size: 400px 400px, 400px 400px;
+    -fx-background-position: center center, right top;
+    -fx-background-image: url(Imagenes/logo.png), url(Imagenes/Recurso11.png);
+    -fx-background-repeat: no-repeat, no-repeat;
+
+}
+
+
+#open-propietarioTab:hover {
+    -fx-background-color: rgb(187, 254, 175);
+    ;
+}
+#open-mascotaTab:hover {
+    -fx-background-color: rgb(187, 254, 175);
+    
+}
+#crear-mascotaTab:hover {
+    -fx-background-color: rgb(187, 254, 175);
+    
+}
+#crear-propietarioTab:hover {
+    -fx-background-color: rgb(187, 254, 175);
+    
+}
+#editar-propietario:hover {
+    -fx-background-color: rgb(187, 254, 175);
+    
+}
+#editar-mascota:hover {
+    -fx-background-color: rgb(187, 254, 175);
+    
+}
+
+.label{
+    -fx-text-fill: black;
+
+}
+.menuBar{
+    -fx-border-radius: 3rem;  
+}
+.menu:hover{
+    -fx-background-color: rgb(187, 254, 175);
+    
+}
+
+.button:hover{ 
+    -fx-background-color: rgb(138, 255, 117)
+}
+
+/* Estilo para el formulario de inicio de sesión */
+.vbox {
+    -fx-background-color: #fff; /* Establece el color de fondo del formulario a blanco (#fff) */
+    -fx-background-radius: 10;  /* Establece el radio de las esquinas del formulario a 10 píxeles */
+    -fx-padding: 20;            /* Establece el relleno interno del formulario a 20 píxeles */
+    -fx-spacing: 10;            /* Establece el espacio entre elementos del formulario a 10 píxeles */
+    -fx-alignment: center;      /* Alinea los elementos del formulario al centro */
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 10, 0, 0, 0); /* Aplica una sombra al formulario con efecto de "dropshadow" */
+}
+
+/* Estilo para los campos de entrada */
+#username-field, #password-field {
+    -fx-pref-width: 200;    /* Establece el ancho preferido de los campos de entrada a 200 píxeles */
+    -fx-font-size: 14;      /* Establece el tamaño de fuente de los campos de entrada a 14 puntos */
+}
+
+/* Estilo para el botón */
+#login-button {
+    -fx-background-color: #4CAF50; /* Establece el color de fondo del botón a verde (#4CAF50) */
+    -fx-text-fill: white;          /* Establece el color del texto del botón a blanco */
+}
+
+/* Estilo para el botón al pasar el cursor */
+#login-button.hover-button:hover {
+    -fx-background-color: #333333; /* Cambia el color de fondo del botón a un tono de gris oscuro (#333333) */
+    -fx-text-fill: white;          /* Cambia el color del texto del botón a blanco cuando el cursor se encuentra sobre él */
+}
